@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Akshardham">
+
+
+    <ImageView
+        android:id="@+id/recycler_image"
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/new_delhi_akshardham_temple" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/recycler_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Akshardham Temple"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="@font/lato_black"
+        app:layout_constraintTop_toBottomOf="@id/recycler_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/recycler_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato_black"
+        app:layout_constraintTop_toBottomOf="@id/recycler_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Note Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="12dp"
+        app:layout_constraintTop_toBottomOf="@id/recycler_subtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- Note Text -->
+        <TextView
+            android:id="@+id/recycler_note"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:fontFamily="@font/lato_black"
+            android:padding="16dp"
+            android:text="Swaminarayan Akshardham is a Hindu temple and spiritual-cultural campus in Delhi, India. The temple is close to the border with Noida. Also referred to as Akshardham Temple or Akshardham Delhi, the complex displays millennia of traditional and modern Hindu culture, spirituality, and architecture. Inspired by Yogiji Maharaj and created by Pramukh Swami Maharaj, it was constructed by BAPS."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/aksharnext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="230dp"
+            android:text="Next" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

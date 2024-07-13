@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gokerala">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/city_image"
+            android:layout_width="0dp"
+            android:layout_height="480dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearance="@style/Widget.MaterialComponents.ShapeableImageView.Corners"
+            app:srcCompat="@drawable/keralarep"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="9dp" />
+
+
+        <TextView
+
+            android:layout_width="167dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/lato_black"
+            android:text="Kerala"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView12"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="54dp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:background="#4A4A4A"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="504dp"
+            android:fontFamily="@font/lato_black"
+            android:text="Main Attractions"
+            android:textColor="#000000"
+            android:textSize="22dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
+
+        <TextView
+            android:id="@+id/golden1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="1.Alleppey Boat House"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/jallia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="2. Fort Cochi"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/golden1" />
+
+        <TextView
+            android:id="@+id/attari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="3.Kovalam"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jallia" />
+        <TextView
+            android:id="@+id/partition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="4.Munnar"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/attari" />
+
+        <TextView
+            android:id="@+id/ramtirath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="5.Thekkady Tree House"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/partition" />
+
+
+        <Button
+            android:id="@+id/explorekerala"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="#FF9800"
+            android:drawableRight="@drawable/baseline_arrow_circle_right_24"
+            android:text="Explore"
+            android:textColor="#1C1B1C"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ramtirath" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Agraredfort">
+
+
+    <ImageView
+        android:id="@+id/recycler_image"
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/agrafort" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/recycler_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agra Fort"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="@font/lato_black"
+        app:layout_constraintTop_toBottomOf="@id/recycler_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp" />
+
+
+    <TextView
+        android:id="@+id/recycler_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato_black"
+        app:layout_constraintTop_toBottomOf="@id/recycler_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Note Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="12dp"
+        app:layout_constraintTop_toBottomOf="@id/recycler_subtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- Note Text -->
+        <TextView
+            android:id="@+id/recycler_note"
+            android:layout_width="match_parent"
+            android:layout_height="268dp"
+            android:fontFamily="@font/lato_black"
+            android:padding="16dp"
+            android:text="The Agra Fort (Qila Agra) is a historical fort in the city of Agra, and also known as Agra's Red Fort. Mughal emperor Humayun was crowned at this fort in 1530. It was later renovated by the Mughal emperor Akbar from 1565 and the present-day structure was completed in 1573. It served as the main residence of the rulers of the Mughal dynasty until 1638, when the capital was shifted from Agra to Delhi. It was also known as the Lal-Qila or Qila-i-Akbari."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/fortnext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="230dp"
+            android:text="go next" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

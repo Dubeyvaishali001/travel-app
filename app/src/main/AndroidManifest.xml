@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VoyageVerse"
+        tools:targetApi="31">
+        <activity
+            android:name=".Profileactual"
+            android:exported="true" />
+
+        <activity android:name=".GuideDetailsActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".Map"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".sms"
+            android:exported="true" />
+        <activity
+            android:name=".Alleppey"
+            android:exported="true" />
+        <activity
+            android:name=".Thekkady"
+            android:exported="true" />
+        <activity
+            android:name=".Kovalam"
+            android:exported="true" />
+        <activity
+            android:name=".Cochi"
+            android:exported="true" />
+        <activity
+            android:name=".Munnar"
+            android:exported="true" />
+        <activity
+            android:name=".Gokerala"
+            android:exported="true" />
+        <activity
+            android:name=".Belur"
+            android:exported="true" />
+        <activity
+            android:name=".Birla"
+            android:exported="true" />
+        <activity
+            android:name=".Science"
+            android:exported="true" />
+        <activity
+            android:name=".Victoria"
+            android:exported="true" />
+        <activity
+            android:name=".Howrah"
+            android:exported="true" />
+        <activity
+            android:name=".Gokolkata"
+            android:exported="true" />
+        <activity
+            android:name=".Dehradun"
+            android:exported="true" />
+        <activity
+            android:name=".Nainital"
+            android:exported="true" />
+        <activity
+            android:name=".Rishikesh"
+            android:exported="true" />
+        <activity
+            android:name=".Valley"
+            android:exported="true" />
+        <activity
+            android:name=".Kedarnath"
+            android:exported="true" />
+        <activity
+            android:name=".Gouttarakhand"
+            android:exported="true" />
+        <activity
+            android:name=".Jhansi"
+            android:exported="true" />
+        <activity
+            android:name=".Rammandir"
+            android:exported="true" />
+        <activity
+            android:name=".Kashi"
+            android:exported="true" />
+        <activity
+            android:name=".Agraredfort"
+            android:exported="true" />
+        <activity
+            android:name=".Tajmahal"
+            android:exported="true" />
+        <activity
+            android:name=".Apnaup"
+            android:exported="true" />
+        <activity
+            android:name=".LotusTemple"
+            android:exported="true" />
+        <activity
+            android:name=".Redfort"
+            android:exported="true" />
+        <activity
+            android:name=".Indiagate"
+            android:exported="true" />
+        <activity
+            android:name=".Akshardham"
+            android:exported="true" />
+        <activity
+            android:name=".Humayun"
+            android:exported="true" />
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".Homepage" />
+        <activity android:name=".Goamritsar" />
+        <activity android:name=".Goldentemple" />
+        <activity android:name=".Jallianwala" />
+        <activity android:name=".Attari" />
+        <activity android:name=".Partition" />
+        <activity android:name=".Ramtirath" />
+        <activity android:name=".Delhchalo" />
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAibbo1IZUGEr345ROp9natHxJUBP5ggz4" />
+    </application>
+
+</manifest>

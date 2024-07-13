@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tajmahal">
+
+
+    <ImageView
+        android:id="@+id/recycler_image"
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/agra_taj_mahal" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/recycler_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Taj Mahal"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="@font/lato_black"
+        app:layout_constraintTop_toBottomOf="@id/recycler_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp" />
+
+
+    <TextView
+        android:id="@+id/recycler_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato_black"
+        app:layout_constraintTop_toBottomOf="@id/recycler_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Note Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="12dp"
+        app:layout_constraintTop_toBottomOf="@id/recycler_subtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- Note Text -->
+        <TextView
+            android:id="@+id/recycler_note"
+            android:layout_width="match_parent"
+            android:layout_height="268dp"
+            android:fontFamily="@font/lato_black"
+            android:padding="16dp"
+            android:text="The Taj Mahal (/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ-/; lit. 'Crown of the Palace') is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r. 1628–1658) to house the tomb of his beloved wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/tajnext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="230dp"
+            android:text="go next" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/newallp"
+    tools:context=".MainActivity">
+
+
+
+
+    <View
+        android:id="@+id/white_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/text_voyage_verse"
+        android:layout_alignEnd="@id/text_voyage_verse"
+        android:layout_alignTop="@id/text_voyage_verse"
+        android:layout_alignBottom="@id/text_voyage_verse"
+        android:background="#80CFCCCC" />
+
+
+    <TextView
+
+        android:id="@+id/text_voyage_verse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="273dp"
+        android:layout_marginEnd="104dp"
+        android:text="𝐕𝐨𝐲𝐚𝐠𝐞 𝐕𝐞𝐫𝐬𝐞"
+        android:textAlignment="center"
+        android:textColor="#200530"
+        android:textSize="33sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/white_background_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/text_life_verse"
+        android:layout_alignEnd="@id/text_life_verse"
+        android:layout_alignTop="@id/text_life_verse"
+        android:layout_alignBottom="@id/text_life_verse"
+        android:background="#80FFFFFF" /> <!-- Adjust the opacity here (80) -->
+
+    <!-- Second TextView -->
+    <TextView
+        android:id="@+id/text_life_verse"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_below="@id/text_voyage_verse"
+        android:layout_marginTop="44dp"
+        android:text="𝕷𝖎𝖋𝖊 𝖎𝖘 𝖘𝖍𝖔𝖗𝖙 &amp;
+𝖜𝖔𝖗𝖑𝖉 𝖎𝖘 𝖜𝖎𝖉𝖊"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnVisit"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/white_background_second"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="66dp"
+        android:background="#FF9800"
+        android:drawableRight="@drawable/baseline_arrow_circle_right_24"
+        android:text="𝐋𝐞𝐭'𝐬 𝐆𝐞𝐭 𝐒𝐭𝐚𝐫𝐭𝐞𝐝"
+        android:textColor="#1C1B1C"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

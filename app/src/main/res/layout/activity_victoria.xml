@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Victoria">
+
+
+    <ImageView
+        android:id="@+id/recycler_image"
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/victoria" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/recycler_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Victoria Memorial"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:fontFamily="@font/lato_black"
+        app:layout_constraintTop_toBottomOf="@id/recycler_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/recycler_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato_black"
+        app:layout_constraintTop_toBottomOf="@id/recycler_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Note Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="12dp"
+        app:layout_constraintTop_toBottomOf="@id/recycler_subtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- Note Text -->
+        <TextView
+            android:id="@+id/recycler_note"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:fontFamily="@font/lato_black"
+            android:padding="16dp"
+            android:text="The Victoria Memorial is a large marble monument on the Maidan in Central Kolkata, having its entrance on the Queen's Way. It was built between 1906 and 1921 by the British Raj. It is dedicated to the memory of Queen Victoria, the Empress of India from 1876 to 1901.It is the largest monument to a monarch anywhere in the world. It stands at 64 acres of gardens and is now a museum under the control of the Ministry of Culture, Government of India.Possessing prominent features of the Indo-Saracenic architecture."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/victoriatohome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="230dp"
+            android:text="Home" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

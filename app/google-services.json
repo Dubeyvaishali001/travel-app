@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "597124361698",
+    "project_id": "voyage-verse-a4824",
+    "storage_bucket": "voyage-verse-a4824.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597124361698:android:d4e6bb381ac540bab21dbb",
+        "android_client_info": {
+          "package_name": "com.example.voyageverse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGtgUvgZjqKLBos4E1L-tQ7z00Ha_762U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
