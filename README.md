@@ -59,6 +59,66 @@ I developed the entire application end-to-end, focusing on:
 - Easy to extend with MVVM or Jetpack Compose in future
 
 ---
+Features-->
+1️⃣ Installation & Configuration
+
+✔ Installed and configured JDK, Android Studio, and Android SDK
+✔ Set up emulator and physical device testing
+✔ Configured Firebase services (Authentication + Database)
+
+2️⃣ GUI Components, Fonts & Colours
+
+✔ Used modern UI widgets: TextView, ImageView, Buttons, CardViews
+✔ Custom fonts for headings
+✔ Theme colours + Material Design palette
+✔ XML ConstraintLayouts for responsive UI
+
+3️⃣ Layout Managers, Event Listeners, Event Handling & Notifications
+
+✔ Implemented multiple layouts: LinearLayout, RelativeLayout, ConstraintLayout
+✔ Added click listeners on RecyclerView items
+✔ Intent-based event handling between screens
+✔ Push notifications (Firebase Cloud Messaging)
+
+4️⃣ Native Calculator (Arithmetic App)
+
+✔ A mini calculator module built inside the project (addition, subtraction, multiplication, division)
+✔ Demonstrates UI input handling & state management
+
+5️⃣ Animations & Graphics
+
+✔ Fade-in and slide animations for screen transitions
+✔ RecyclerView item animation
+✔ Smooth card pop-up animations
+✔ Image loading animations
+
+6️⃣ SQLite Database
+
+✔ Local storage implemented for saving lightweight data
+✔ Example: saving favorite destinations / recent views
+✔ Demonstrates CRUD operations
+
+7️⃣ Internet + Firebase Communication (SMS & Email)
+
+✔ Firebase Realtime Database for fetching travel data
+✔ Firebase Authentication for user login
+✔ Integrated email sending (via Intent / Gmail API)
+✔ SMS send triggered via Android SMS Manager
+
+8️⃣ SD Card Storage + Notification Manager
+
+✔ Saves selected travel information to external storage
+✔ Reads from SD card (with runtime permissions)
+✔ Uses NotificationManager to show alerts & updates
+
+9️⃣ Location-Based Services (GPS, Geofencing, Activity Recognition)
+
+✔ Google Play Services location API integrated
+✔ Shows nearby destinations based on GPS
+✔ Geofencing alerts for entering selected travel zones
+✔ Basic activity recognition (walking/idle detection)
+
+---
 SCREENSHOTS-->>
 
 ![WhatsApp Image 2025-11-27 at 20 36 36_23e203cb](https://github.com/user-attachments/assets/30160c7e-b778-45e0-a975-0bbc52289224)
