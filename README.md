@@ -60,9 +60,18 @@ I developed the entire application end-to-end, focusing on:
 
 ---
 SCREENSHOTS-->>
+
+![WhatsApp Image 2025-11-27 at 20 36 36_23e203cb](https://github.com/user-attachments/assets/30160c7e-b778-45e0-a975-0bbc52289224)
+
 ![WhatsApp Image 2025-11-27 at 20 36 37_5d6fdd70](https://github.com/user-attachments/assets/83805515-bdf0-4128-b6dc-04b974e3ac2a)
 
 ![WhatsApp Image 2025-11-27 at 20 36 36_62b02291](https://github.com/user-attachments/assets/b7a10176-403a-4276-9eb6-c81f041f16d7)
+![WhatsApp Image 2025-11-27 at 20 35 58_6f5995e2](https://github.com/user-attachments/assets/6dd4d4fa-22ba-4d7b-abe5-3b3318870ee6)
+
+![WhatsApp Image 2025-11-27 at 20 36 35_045b877a](https://github.com/user-attachments/assets/6cc242a3-d6a3-4820-8639-2de19ecfe395)
+
+
+
 
 
 
