@@ -80,11 +80,6 @@ Features-->
 ✔ Intent-based event handling between screens
 ✔ Push notifications (Firebase Cloud Messaging)
 
-4️⃣ Native Calculator (Arithmetic App)
-
-✔ A mini calculator module built inside the project (addition, subtraction, multiplication, division)
-✔ Demonstrates UI input handling & state management
-
 5️⃣ Animations & Graphics
 
 ✔ Fade-in and slide animations for screen transitions
@@ -105,10 +100,8 @@ Features-->
 ✔ Integrated email sending (via Intent / Gmail API)
 ✔ SMS send triggered via Android SMS Manager
 
-8️⃣ SD Card Storage + Notification Manager
+8️⃣ S + Notification Manager
 
-✔ Saves selected travel information to external storage
-✔ Reads from SD card (with runtime permissions)
 ✔ Uses NotificationManager to show alerts & updates
 
 9️⃣ Location-Based Services (GPS, Geofencing, Activity Recognition)
